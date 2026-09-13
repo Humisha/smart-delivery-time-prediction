@@ -1,0 +1,11 @@
+Step,What to Do,Streamlit Function
+1,Install Streamlit,pip install streamlit
+2,Create app.py file,Your main file
+3,Load your cleaned dataset,pd.read_csv()
+4,Load your trained model,pickle.load() or joblib.load()
+5,Section 1: Show KPI cards,st.metric()
+6,Section 2: Pie chart + Line chart,st.plotly_chart() or st.bar_chart()
+7,Section 3: Distance & City charts,st.plotly_chart()
+8,"Section 4: Traffic, Weather, Vehicle charts",st.plotly_chart()
+9,Section 5: Input form + Predict button,st.selectbox() + st.button()
+10,Run dashboard,streamlit run app.py
